@@ -1,0 +1,41 @@
+{
+  "name": "@dzo/eslint-config-esdz",
+  "version": "0.0.3",
+  "description": "ESLint 基础配置，集成react,vue,ts的规范。",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config",
+    "@dzo/eslint-config-esdz",
+	  "esbing"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "ts.js",
+    "react.js",
+    "vue.js",
+    "package.json",
+    "README.md"
+  ],
+  "author": "狄路",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.5",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-vue": "^8.3.0"
+  },
+  "devDependencies": {
+	"typescript": "^4.5.5"
+  }
+}
