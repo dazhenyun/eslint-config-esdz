@@ -71,7 +71,7 @@ module.exports = {
   /**
    * 必须使用 React.Fragment 而不是 <></>
    */
-  'react/jsx-fragments': ['error', 'element'],
+  // 'react/jsx-fragments': ['error', 'element'],
   /**
    * handler 的名称必须是 onXXX 或 handleXXX
    */

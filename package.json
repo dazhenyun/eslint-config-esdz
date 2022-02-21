@@ -18,6 +18,7 @@
     "ts.js",
     "react.js",
     "vue.js",
+	"prettier.js",
     "package.json",
     "README.md"
   ],

@@ -46,4 +46,5 @@ module.exports = {
 :::
 
 版本更新
-
+0.0.2 修改"semi": ["error", "always"],必须分号结束
+0.0.3 新增prettier.js配置文件

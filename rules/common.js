@@ -962,7 +962,7 @@ module.exports = {
   /**
    * 使用分号
    */
-  "semi": ["error", "never"],
+  "semi": ["error", "always"],
   /**
    * 创建 Symbol 时必须传入参数
    */
