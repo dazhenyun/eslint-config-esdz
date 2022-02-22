@@ -1,6 +1,6 @@
 {
   "name": "@dzo/eslint-config-esdz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint 基础配置，集成react,vue,ts的规范。",
   "main": "index.js",
   "keywords": [

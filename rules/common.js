@@ -934,7 +934,7 @@ module.exports = {
   /**
    * 在“function”定义的左括号前强制使用一致的间距
    */
-  "space-before-function-paren": 2,
+  "space-before-function-paren": [2, {"anonymous": "always", "named": "never", "asyncArrow": "always"}], // 改成2
   /**
    * 禁止或强制使用括号内的空格（括号中的空格）
    */
