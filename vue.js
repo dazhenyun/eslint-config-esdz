@@ -16,8 +16,10 @@ module.exports = {
     "./ts.js"
   ],
   parserOptions: {
+    parser: "babel-eslint",
     ecmaVersion: 2019,
   },
+  parser:'vue-eslint-parser',
   plugins: ['vue'],
   rules: Object.assign({}, vueRules)
 };
